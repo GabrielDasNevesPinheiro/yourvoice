@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+
+.error {
+  font-family: 'Epilogue', sans-serif;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=text] {
+    border-radius: 1px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 0;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+  .container {
+    border-radius: 5px;
+    height: calc(100vh - 6vh);
+    width: calc(100vw - 6vh);
+    background-color: #e2e2e2;
+    padding: 20px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   @media screen and (max-width: 600px) {
+    .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
