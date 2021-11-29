@@ -1,5 +1,8 @@
-# DiscordBaseBot :robot:
-estrutura básica que fiz pra qualquer aplicação que eu fizer em discord.js
+# <a href="https://github.com/GabrielDasNevesPinheiro/discordbasebot">DiscordBaseBot :robot:</a>
+estrutura básica que fiz pra qualquer aplicação que eu fizer em discord.js, clique acima para chegar o repositório!
+
+Atenção 🚩 <br>
+Esta versão contém mudanças de código adaptadas para essa aplicação.
 
 
 
@@ -11,9 +14,11 @@ npm install
 yarn
 ```
 
-no arquivo ``` .ENV ``` você altera o token da aplicação junto ao prefixo:
+no arquivo ``` .ENV ``` você configura o IP do servidor, Token do bot, Porta do servidor e Prefixo:
 ```env
+SERVER=
 TOKEN=
+PORT=
 PREFIX=
 ```
 
@@ -26,6 +31,5 @@ npm run start
 
 
 # Mais informações
-Ainda irei melhorar a estrutura, otimizar o código e deixar cada vez mais flexível
-fique de olho 👀
+O Código está longe de estar perfeito, deixe sua sugestão para melhorarmos!
 
