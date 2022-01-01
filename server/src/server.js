@@ -30,10 +30,10 @@ io.on('connection', (socket) => { // quando alguém conectar
     socket.on('invalidChannel', error => { // Tratando um possível erro de Canal inválido enviado pelo Bot
         socket.broadcast.emit('channelError', error); // Enviando esse erro, que será tratado pelo front-end
     });
-});
-
-io.on('disconnect', (socket) => {
-    console.log(`socket desconectado: ${socket.id}`);
+    
+    io.on('disconnect', (socket) => {
+        console.log(`socket desconectado: ${socket.id}`);
+    });
 });
 
 //ouvindo a porta:
